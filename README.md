@@ -1,11 +1,15 @@
-# ssg
+### ssg
 simple site generator
 
-## dependencies
+---
+
+### dependencies
 
 - none
 
-## build
+---
+
+### build
 
 ```bash
 git clone https://github.com/nakibrayan/ssg.git
@@ -19,7 +23,9 @@ cd ssg
 make
 ```
 
-### install
+---
+
+#### install
 
 go through out the `build` tutorial and then (run this command as root)
 
