@@ -1,8 +1,3 @@
-### ssg
-simple site generator
-
----
-
 ### dependencies
 
 - none
@@ -20,15 +15,19 @@ cd ssg
 ```
 
 ```bash
-make
+cc ssg.c -o ssg
 ```
 
 ---
 
-#### install
+### install
 
-go through out the `build` tutorial and then (run this command as root)
+go through out the `build` tutorial and then run this commands
 
 ```bash
-make clean install
+sudo mkdir -p /usr/local/bin
+```
+
+```bash
+sudo mv ssg /usr/local/bin
 ```
