@@ -7,11 +7,10 @@ void help() {
 }
 
 void init() {
-  system("mkdir src dst");
-  system("mkdir src/pages src/images src/css");
-  system("touch src/index.html src/_header src/_footer");
+  system("mkdir src src/pages src/images src/css");
   system("touch src/css/global.css src/css/header.css src/css/footer.css");
-  system("git init");
+  system("touch src/pages/index.md");
+  system("touch src/_header.html src/_footer.html");
 }
 
 int main(int argc, char *argv[]) {
